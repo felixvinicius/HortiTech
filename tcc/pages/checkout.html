@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout - HortiTech</title>
+
+    <!-- Mesmo CSS da Vitrine para manter a identidade visual -->
+    <link rel="stylesheet" href="/styles/checkout.css">
+  
+
+</head>
+<body>
+
+<header class="header">
+    <h1>HortiTech</h1>
+
+    <div class="cart">
+        🛒 <span id="cart-count">0</span>
+    </div>
+</header>
+
+<main class="container">
+
+    <h2 class="title">Resumo do Pedido</h2>
+
+    <!-- LISTA DOS ITENS DO CARRINHO -->
+    <div id="checkout-list" class="checkout-list"></div>
+
+    <!-- TOTAL DO PEDIDO -->
+    <div class="checkout-total">
+        <h3>Total: <span id="total-geral">R$ 0,00</span></h3>
+    </div>
+
+    <!-- BOTÃO FINALIZAR -->
+    <button id="finalizar-btn" class="btn finalizar">Finalizar Pedido</button>
+
+</main>
+
+<script src="/scripts/checkout.js"></script>
+</body>
+</html>
